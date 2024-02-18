@@ -11,32 +11,11 @@
         <h1 class="title-page">Diego's calulators</h1>
         <div class="calculator-container">
             <input for="display" id="display" type="text" readonly placeholder="0.00" />
-            <div class="button-container">
-                <button type="button" onclick="appenToDisplay('+')" class="orange">+</button>
-                <button type="button" onclick="appenToDisplay('1')">1</button>
-                <button type="button" onclick="appenToDisplay('2')">2</button>
-                <button type="button" onclick="appenToDisplay('3')">3</button>
-                <button type="button" onclick="appenToDisplay('-')" class="orange">-</button>
-                <button type="button" onclick="appenToDisplay('4')">4</button>
-                <button type="button" onclick="appenToDisplay('5')">5</button>
-                <button type="button" onclick="appenToDisplay('6')">6</button>
-                <button type="button" onclick="appenToDisplay('.')" class="orange">.</button>
-                <button type="button" onclick="appenToDisplay('7')">7</button>
-                <button type="button" onclick="appenToDisplay('8')">8</button>
-                <button type="button" onclick="appenToDisplay('9')">9</button>
-                <button type="button" onclick="appenToDisplay('/')" class="orange">/</button>
-                <button type="button" onclick="clearDisplay()" class="orange">AC</button>
-                <button type="button" onclick="appenToDisplay('0')">0</button>
-                <button type="button" onclick="calculate()" class="orange">=</button>
-            </div>
-
-
+            <div id="button-keys-container" class="button-container"></div>
         </div>
     </div>
 
-
-
-    <script src="calculator.js"></script>
+    <script type="module" src="calculator.js"></script>
 </body>
 
 </html>
