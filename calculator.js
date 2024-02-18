@@ -12,4 +12,4 @@ function calculate(){
     display.value = eval(display.value)
 }
 
-// window.alert(`Hey hey hey`);
+window.alert(`Hola mundo`);
