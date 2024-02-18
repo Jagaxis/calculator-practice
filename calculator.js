@@ -12,4 +12,5 @@ function calculate(){
     display.value = eval(display.value)
 }
 
-window.alert(`Hola mundo`);
+// Is not necesary for now
+// window.alert(`Hola mundo`);
